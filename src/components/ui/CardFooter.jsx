@@ -1,7 +1,6 @@
 import { BaseUrl } from '@/api';
 import { formatDate } from '@/services/formatDate';
-// import thumbnail from '../../images/profile.jpeg'
-// import React from 'react'
+
 const CardFooter = ({blog}) => {
   return (
     <div className="flex items-center gap=4 ">
