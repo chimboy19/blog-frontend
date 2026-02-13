@@ -1,6 +1,6 @@
 import Badge from "@/components/ui/Badge";
 import BlogWriter from "@/components_ui/BlogWriter";
-import banner from "../images/blogdetails.webp";
+// import banner from "../images/blogdetails.webp";
 import { useQuery } from "@tanstack/react-query";
 import { useParams } from "react-router-dom";
 import { getBlog_details } from "@/services/apiBlogs";

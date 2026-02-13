@@ -22,12 +22,34 @@ export async function getBlog_details(slug) {
     
 }
 
-export async function updateProfile() {
+export async function createBlog (data) {
     try {
-        const response = await api.post(`update_profile/`);
+        const response = await api.post(`create_blog/`,data)
         return response.data
     }
-    catch (err){
+    catch(err) {
+        throw new Error(err.message)
+    }
+}
+
+export async function get_categories() {
+    try {
+        const response = await api.get(`blog/categories`)
+        return response.data
+    }
+    catch(err) {
+        throw new Error(err)
+    }
+    
+}
+
+export async function updateProfile(data) {
+    try {
+        const response = await api.post(`update_profile/`,data);
+        return response.data
+    }
+    catch (err) {
+        
         throw new Error(err.message)
     }
 
