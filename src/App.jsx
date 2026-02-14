@@ -12,6 +12,7 @@ import ProfilePage from './pages/ProfilePage';
 
 
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { ToastContainer } from 'react-toastify';
 
 
 
@@ -38,7 +39,9 @@ const App = () => {
             <Route path="login" element={<LoginPage />}></Route>
           </Route>
         </Routes>
+    
       </BrowserRouter>
+      <ToastContainer/>
     </QueryClientProvider>
   );
 }

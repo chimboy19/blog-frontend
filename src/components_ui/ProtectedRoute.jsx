@@ -34,7 +34,7 @@ const ProtectedRoute = ({ children }) => {
         
         }
         catch (err) {
-            setisAuthorized(false)
+            setisAuthorized(false,err.message)
 
         }
         
