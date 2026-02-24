@@ -10,7 +10,7 @@ const BlogContainer = ({ isPending,blogs }) => {
   return (
     <section className="px-6 py-[70px]  w-full">
       <h2 className="font-semibold text-xl mb-6 pb-8 dark:text-white text-center">
-        🍔Latest Post
+        Latest Posts
       </h2>
 
       <div className="flex items-center gap-6 justify-center flex-wrap">
