@@ -7,7 +7,7 @@ import { BaseUrl } from "@/api";
 
 const BlogCard = ({ blog }) => {
     return (
-      <div className="px-3 py-3 rounded-md w-[300px] h-auto flex flex-col gap-4 dark:border-gray-800 shadow-md mt-[50px] ">
+      <div className="px-2 py-3 rounded-md w-[300px] h-auto flex flex-col gap-4 dark:border-gray-800 shadow-md mt-[50px] ">
         <div className="w-full overflow-hidden h-[200px] rounded md ">
           <img src={`${BaseUrl}${blog.featured_image}`} alt="" className="w-full h-full rounded-lg " />
         </div>
