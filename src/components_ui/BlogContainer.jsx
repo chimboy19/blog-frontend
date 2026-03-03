@@ -8,7 +8,7 @@ const BlogContainer = ({ isPending,blogs }) => {
   }
   
   return (
-    <section className="px-4 py-[70px]  w-full">
+    <section className="px-3 py-[70px]  w-full">
       <h2 className="font-semibold text-xl mb-6 pb-8 dark:text-white text-center">
         Latest Posts
       </h2>
