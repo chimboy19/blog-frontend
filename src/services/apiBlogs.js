@@ -43,7 +43,7 @@ export async function get_categories() {
     
 }
 
-export async function update_Profile(data) {
+export async function updateProfile(data) {
     try {
         const response = await api.post(`update_profile/`,data);
         return response.data
